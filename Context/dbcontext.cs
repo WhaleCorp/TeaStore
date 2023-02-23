@@ -8,5 +8,6 @@ namespace TeaStoreApi.Context
         public dbcontext(DbContextOptions options):base(options) { }
 
         public DbSet<Teas> Teas { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }
